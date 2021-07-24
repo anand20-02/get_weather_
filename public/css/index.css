@@ -46,7 +46,8 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    height: 40px;
+    height: auto;
+    margin-top: 67px;
 
 }
 

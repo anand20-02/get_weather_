@@ -46,8 +46,8 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    height: auto;
-    margin-top: 67px;
+    /* height: auto;
+    margin-top: 67px; */
 
 }
 
@@ -122,6 +122,7 @@ body{
     color: white;
     height: 41px;
     border-radius: 15px;
+    outline: none;
 }
 
 #cityName ::placeholder{
@@ -141,6 +142,7 @@ color: white;
     background-color: #0d6efd;
     /* box-shadow: grey 2px 2px 2px; */
     border: 2px solid #0d6efd;
+    outline: none;
 }
 
 .top_layer{
@@ -192,6 +194,11 @@ color: white;
     .main_header_left{
         margin: 5px;
     height: 310px;
+    }
+
+    .footer{
+        height: auto;
+    margin-top: 67px;
     }
 }
 
